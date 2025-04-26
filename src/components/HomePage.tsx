@@ -21,21 +21,21 @@ const modes = [
     {
         name: "Fingering Mode",
         description: "Conquer each keyboard row finger-by-finger with Thing guiding you through randomized drills.",
-        image: "/images/fingering_mode.jpg",
+        image: "images/fingering_mode.jpg",
         benefit: "Build rock-solid muscle memory.",
         mode: "fingering"
     },
     {
         name: "Dictionary Mode",
         description: "See a word and its meaning, type it out like Pugsley, and lock in new vocab at speed.",
-        image: "/images/dictionary_mode.jpg",
+        image: "images/dictionary_mode.jpg",
         benefit: "Expand your vocabulary effortlessly.",
         mode: "dictionary"
     },
     {
         name: "Pro Mode",
         description: "Tackle full passages with real-time WPM/accuracy feedback—Wednesday-level challenge that scales as you improve.",
-        image: "/images/pro_mode.jpg",
+        image: "images/pro_mode.jpg",
         benefit: "Master real-world typing speed and precision.",
         mode: "pro"
     }

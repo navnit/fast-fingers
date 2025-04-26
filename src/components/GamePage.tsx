@@ -100,18 +100,18 @@ function GamePage({mode, setMode}: GamePageProps) {
                     </Box>
                 </Grid>
             </Grid>
-            <Box sx={{
+            <Box  maxWidth={'xl'} sx={{
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
                 height: '80vh'
             }}>
-                {gameStatus === "waiting" ? (<Typography variant="h2">Type </Typography>) : null}
-                <Typography variant="h4" maxWidth={'xl'}
-                            sx={{fontFamily: '"Merriweather", serif', fontWeight: 400, p: 3, width: '100%', wordBreak: 'break-word', textAlign:'center'}}>
+                {gameStatus === "waiting" ? (<Typography variant="h4">Type </Typography>) : null}
+                <Typography variant="h4"
+                            sx={{fontFamily: '"Merriweather", serif', fontWeight: 400, p: 3, wordBreak: 'break-word', textAlign:'center'}}>
                     <Text text={text} cursor={cursor}/>
                 </Typography>
-                {gameStatus === "waiting" ? (<Typography variant="h3"> to start the game!</Typography>) : null}
+                {gameStatus === "waiting" ? (<Typography variant="h4"> to start the game!</Typography>) : null}
             </Box>
             <Box sx={{height: '5vh'}}>
                 <Typography variant="h6" sx={{textAlign: 'center'}}>Press <Typography component='span' variant='h6'
