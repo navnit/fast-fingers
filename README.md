@@ -1,6 +1,32 @@
-# React + TypeScript + Vite
+# Fast Fingers Typing Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fast Fingers is an interactive typing practice game built with React, TypeScript
+and Vite. It helps you improve speed and accuracy through quick challenges that
+track your progress in real time.
+
+## Getting Started
+
+Install dependencies and launch the development server:
+
+```bash
+npm install
+npm run dev
+```
+
+Then open `http://localhost:5173` in your browser.
+
+### Available Modes
+
+- **Fingering Mode** – master keyboard rows with randomized drills.
+- **Dictionary Mode** – type words and their meanings to grow vocabulary.
+- **Pro Mode** – tackle full passages with WPM and accuracy tracking.
+
+Press `Esc` during a game to return to the main menu.
+
+## React + TypeScript + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR
+and some ESLint rules.
 
 Currently, two official plugins are available:
 
